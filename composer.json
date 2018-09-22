@@ -1,12 +1,11 @@
 {
-    "name": "mint/wp-composer",
+    "name": "mint/three",
     "authors": [
         {
-            "name": "Matthieu Bellot",
-            "email": "matthieu.bellot@yahoo.fr"
+            "name": "MB dev'web",
+            "email": "mb.devweb@gmail.com"
         }
     ],
-
     "repositories":[
         {
             "type":"composer",
@@ -17,8 +16,6 @@
         "johnpbloch/wordpress": "^4.9",
         "wpackagist-theme/twentyseventeen": "*",
         "wpackagist-plugin/hello-dolly": "*"
-
-        
     },
     "extra": {
         "wordpress-install-dir": "wp",
@@ -27,5 +24,4 @@
             "content/themes/{$name}/": ["type:wordpress-theme"]
         }
     }
-
 }

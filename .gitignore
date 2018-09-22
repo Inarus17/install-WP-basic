@@ -1,15 +1,4 @@
-node_modules/
-public/
-.DS_Store
-notes/
-
 vendor/
 wp/
-/content/*
-!/content/themes
-/content/themes/*
-!/content/themes/oagency
-!/content/plugins
-/content/plugins/*
-!/content/plugins/oagency
+content/
 wp-config.php

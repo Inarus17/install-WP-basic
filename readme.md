@@ -11,15 +11,21 @@
         5- Dupliquer “wp-config-sample.php”, le renommer “wp-config.php” et le compléter (infos de la base de données, clés de salage, liens vers “/content”, paramètres de débug).
         6- Depuis le terminal:
             - modifier le nom du groupe propriétaire des fichiers/dossiers du projet :
-            _(commande : sudo chown -R christophe:www-data . )_
+            _(commande : sudo chown -R <nom_utilisateut>:www-data . )_
             - modifier les droits des fichiers du projet :
             _(commande : sudo find . -type f -exec chmod 664 {} + )_
             - modifier les droits des dossiers du projet :
             _(commande : sudo find . -type d -exec chmod 775 {} + )_
-            - modifier les droits sur le fichier “wp-config” pour que “.htaccess” ne puisse pas le modifier ultérieurement :
-            (commande: sudo chmod 644 wp-config.php )
+            - modifier les droits sur le fichier “.htaccess” :
+            (commande: sudo chmod 644 .htacces )
         7- Aller sur la page du projet avec un navigateur et paramétrer WordPress (choix de la langue, …)
         8- Modifier les permaliens (choisir “nom de l’article”), et supprimer “/wp” à la fin de “adresse du web site (URL). (Nb: penser à sauvegarder les changements).
+
+		Raccourci : 
+			sudo chown -R <mon-utilisateur>:www-data .
+			sudo find . -type f -exec chmod 664 {} +
+			sudo find . -type d -exec chmod 775 {} +
+			sudo chmod 644 .htaccess
 
 ## Mise en place Brunch
 
