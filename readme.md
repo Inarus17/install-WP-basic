@@ -7,11 +7,11 @@
         1- Créer un nouveau dossier pour le projet.
         2- Copier dans ce dossier le contenu de ce dossier.
         3- Exécuter la commande “composer install”.
-        4- Créer la base de données qui sera utilisée dans ce projet.
+        4- Créer la base de données qui sera utilisée dans ce projet. Attention à bien utiliser le jeu de caractères "utf8-general-ci". Si ça n'est pas le cas, se connecter sur PhpMyAdmin, aller sur votre bdd, puis aller sur l'onglet "Opérations". Dans "interclassement", choisir "UTF8-general-ci" et cliquer sur "éxecuter".
         5- Dupliquer “wp-config-sample.php”, le renommer “wp-config.php” et le compléter (infos de la base de données, clés de salage, liens vers “/content”, paramètres de débug).
         6- Depuis le terminal:
             - modifier le nom du groupe propriétaire des fichiers/dossiers du projet :
-            _(commande : sudo chown -R <nom_utilisateut>:www-data . )_
+            _(commande : sudo chown -R <nom_utilisateur>:www-data . )_
             - modifier les droits des fichiers du projet :
             _(commande : sudo find . -type f -exec chmod 664 {} + )_
             - modifier les droits des dossiers du projet :

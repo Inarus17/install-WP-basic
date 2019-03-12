@@ -14,8 +14,7 @@
     ],
     "require": {
         "johnpbloch/wordpress": "^4.9",
-        "wpackagist-theme/twentyseventeen": "*",
-        "wpackagist-plugin/hello-dolly": "*"
+        "wpackagist-theme/twentyseventeen": "*"
     },
     "extra": {
         "wordpress-install-dir": "wp",
