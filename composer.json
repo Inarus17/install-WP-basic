@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "johnpbloch/wordpress": "^4.9",
+        "johnpbloch/wordpress": "^5.1",
         "wpackagist-theme/twentyseventeen": "*"
     },
     "extra": {
